@@ -1,0 +1,10 @@
+
+
+Summary of merged source fluxes
+
+      Position                               0.3 - 10.0 keV                          0.5 - 7.0 keV                           
+                                             Value        68% Conf Interval          Value        68% Conf Interval          
+#0001|13 9 48.05 -23 22 52.8  Rate           0.000779 c/s (0.000688,0.000871)        0.000771 c/s (0.000682,0.000861)        
+  NumObi=2                    Mod.Flux       1.16E-14 erg/cm2/s (1.02E-14,1.29E-14)  8.99E-15 erg/cm2/s (7.95E-15,1E-14)     
+                              Unabs Mod.Flux 1.29E-14 erg/cm2/s (1.14E-14,1.45E-14)  9.74E-15 erg/cm2/s (8.61E-15,1.09E-14)  
+

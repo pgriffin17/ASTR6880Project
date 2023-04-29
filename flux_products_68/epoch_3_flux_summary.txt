@@ -1,0 +1,11 @@
+
+
+Summary of source fluxes
+
+      Position                               0.3 - 10.0 keV                          0.5 - 7.0 keV                           
+                                             Value        68% Conf Interval          Value        68% Conf Interval          
+#0001|13 9 48.05 -23 22 52.8  Rate           0.000459 c/s (0.000377,0.000551)        0.000468 c/s (0.000387,0.000559)        
+                              Flux           NAN erg/cm2/s (NAN,NAN)                 7.49E-15 erg/cm2/s (6.2E-15,8.95E-15)   
+                              Mod.Flux       6.94E-15 erg/cm2/s (5.7E-15,8.33E-15)   5.54E-15 erg/cm2/s (4.59E-15,6.62E-15)  
+                              Unabs Mod.Flux 7.75E-15 erg/cm2/s (6.37E-15,9.31E-15)  6E-15 erg/cm2/s (4.97E-15,7.17E-15)     
+
