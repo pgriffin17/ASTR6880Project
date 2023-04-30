@@ -29,17 +29,19 @@ def obsid_header_parse(obsid):
     return(round(obs_start-t_0_mjd,0),exp_time)
 
 def epoch_header_parse(epoch):
-    #get exposure time and start time from an obsid fits header
+    '''
+    get exposure time and start time from an obsid fits header
+    '''
     t_0 = '2017-08-17'
     t_0_mjd = 57982.00000000
     t_peak = t_0_mjd + 160
 
-    infile = f'data/merge_test/epoch_{epoch_in}/merged_evt.fits'
+    infile = f'data/merge_test/epoch_{epoch+4}/merged_evt.fits'
     with fits.open(infile) as f:
         exp_time = f[1].header['TSTOP'] - f[1].header['TSTART']
         exp_time_print = round(exp_time/1000,None) #converts to integer in kiloseconds
         obs_start = f[1].header['MJD-OBS']
-    return(round(obs_start-t_0_mjd,0),exp_time)
+    return(obs_start-t_0_mjd,exp_time)
 
 def epoch_list_tabulator (obsid_list):
     #write the list to a csv file with Epoch number
